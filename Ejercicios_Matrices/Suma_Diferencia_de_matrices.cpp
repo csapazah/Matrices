@@ -15,5 +15,12 @@ int main(){
 			cin >> B[i][j];
 		}
 	}
+    int suma[100][100],resta[100][100];
+	for(int i=0;i<m;i++){
+		for(int j=0;j<n;j++){
+			suma[i][j] = A[i][j] + B[i][j]; 
+			resta[i][j] = A[i][j] - B[i][j];
+		}
+	}
     return 0;
 }
