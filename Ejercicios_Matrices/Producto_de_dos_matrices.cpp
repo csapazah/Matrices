@@ -25,5 +25,10 @@ int main(){
 			cin >> B[i][j];
 		}
 	}
+    for(int i=0;i<m;i++){
+		for(int j=0;j<b;j++){
+			P[i][j] = 0;
+		}
+	}
     return 0;
 }
