@@ -11,5 +11,19 @@ int main(){
     	cout << "Error";
     	return 1;
 	}
+    cout << "\n Primera matriz"<< endl;
+	for(int i=0;i<m;i++){
+		for(int j=0;j<n;j++){
+			cin >> A[i][j];
+		}
+	}
+	
+	
+	cout << "\n Segunda matriz" << endl;
+	for(int i=0;i<a;i++){
+		for(int j=0;j<b;j++){
+			cin >> B[i][j];
+		}
+	}
     return 0;
 }
