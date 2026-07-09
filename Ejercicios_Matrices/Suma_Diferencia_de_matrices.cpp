@@ -22,5 +22,19 @@ int main(){
 			resta[i][j] = A[i][j] - B[i][j];
 		}
 	}
+    cout << "\n Suma" << endl;
+	for(int i=0;i<m;i++){
+		for(int j=0;j<n;j++){
+			cout << suma[i][j] << " "; 
+		}
+		cout << endl;
+	}
+	cout << "\n Diferencia" <<endl;
+	for(int i=0;i<m;i++){
+		for(int j=0;j<n;j++){
+			cout << resta[i][j] << " "; 
+		}
+		cout << endl;
+	}
     return 0;
 }
