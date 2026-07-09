@@ -37,5 +37,11 @@ int main(){
 			}
 		}
 	}
+    for(int i=0;i<m;i++){
+		for(int j=0;j<b;j++){
+			cout << P[i][j] << " ";
+		}
+		cout << endl;
+	}
     return 0;
 }
