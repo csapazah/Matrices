@@ -30,5 +30,12 @@ int main(){
 			P[i][j] = 0;
 		}
 	}
+    for(int i=0;i<m;i++){
+		for(int j=0;j<b;j++){
+			for(int k=0;k<n;k++){
+				P[i][j] += A[i][k] * B[k][j];
+			}
+		}
+	}
     return 0;
 }
